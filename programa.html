@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>El Programa | Ciencias Sociales</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <style>
+    .program-header {
+      background: url('CSS/uni5.jpg') center/cover no-repeat;
+      min-height: 40vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1rem;
+    }
+    .program-header h1 {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px 30px;
+      border-radius: 10px;
+      font-size: clamp(1.5rem, 5vw, 2.5rem);
+    }
+    .icon-box {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      transition: transform 0.3s ease;
+      height: 100%;
+    }
+    .icon-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    .icon-box i {
+      font-size: 2rem;
+      color: #0d6efd;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="CSS/logo.jpg" alt="Logo Facultad" width="50" />
+        Ciencias Sociales
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">El Programa</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="program-header">
+    <h1>Nuestro Programa Académico</h1>
+  </div>
+
+
+  <section class="container my-5">
+    <div class="text-center mb-5">
+      <h2>Formación con impacto social</h2>
+      <p class="lead">Diseñado para preparar profesionales comprometidos con la realidad nacional y global.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="icon-box text-center">
+          <i class="fas fa-globe-americas mb-3"></i>
+          <h5>Enfoque Interdisciplinario</h5>
+          <p>Integra conocimientos de sociología, antropología, comunicación, economía y más.</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="icon-box text-center">
+          <i class="fas fa-lightbulb mb-3"></i>
+          <h5>Innovación Académica</h5>
+          <p>Metodologías activas, análisis de casos y proyectos comunitarios aplicados.</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="icon-box text-center">
+          <i class="fas fa-users mb-3"></i>
+          <h5>Compromiso Social</h5>
+          <p>Formamos líderes que generen cambio desde una mirada crítica y ética.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5">
+      <h3 class="mb-3">Plan de Estudios</h3>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">🔹 Teoría Social Contemporánea</li>
+        <li class="list-group-item">🔹 Investigación Cualitativa y Cuantitativa</li>
+        <li class="list-group-item">🔹 Comunicación para el Desarrollo</li>
+        <li class="list-group-item">🔹 Políticas Públicas y Derechos Humanos</li>
+        <li class="list-group-item">🔹 Talleres de Intervención Comunitaria</li>
+      </ul>
+    </div>
+
+   
+    <div class="text-center mt-5">
+      <a href="contacto.html" class="btn btn-outline-primary btn-lg">Solicita más información</a>
+    </div>
+  </section>
+
+ 
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p class="mb-1"><strong>Facultad de Ciencias Sociales</strong> – Universidad Nacional</p>
+      <p>Lima, Perú | Tel: (01) 244 8888 | Email: informes@facultadsociales.edu.pe</p>
+      <p class="mb-0">&copy; 2025 Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

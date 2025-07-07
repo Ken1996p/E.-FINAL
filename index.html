@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facultad de Ciencias Sociales</title>
+
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+  <style>
+    .carousel-item img {
+      height: 400px;
+      object-fit: cover;
+    }
+
+    @media (max-width: 768px) {
+      .carousel-item img {
+        height: 250px;
+      }
+
+      .navbar-brand {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="bg-dark text-white py-2 text-center small">
+    📞 (01) 244 8888 | 📱 961 111 122 | ✉ informes@facultadsociales.edu.pe
+  </div>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="CSS/logo.jpg" alt="Logo Facultad" width="40" class="me-2" />
+        <span>Ciencias Sociales</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="programa.html">El Programa</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="CSS/universidad.jpg" class="d-block w-100" alt="Imagen informativa 1" />
+      </div>
+      <div class="carousel-item">
+        <img src="CSS/uni2.png" class="d-block w-100" alt="Imagen informativa 2" />
+      </div>
+      <div class="carousel-item">
+        <img src="CSS/uni3.jpg" class="d-block w-100" alt="Imagen informativa 3" />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+
+  <main class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="fw-bold">Bienvenidos al nuevo programa académico</h2>
+        <p>Nuestra Facultad lanza un innovador programa orientado al análisis social, inclusión, investigación y transformación del entorno. Adaptado a las demandas contemporáneas y enfocado en la formación integral.</p>
+        <a href="programa.html" class="btn btn-primary">Ver detalles del programa</a>
+      </div>
+      <div class="col-lg-6">
+        <img src="CSS/uni4.jpg" class="img-fluid rounded" alt="Estudiantes en clase" />
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <p><strong>Facultad de Ciencias Sociales</strong><br />
+            Universidad Nacional | Lima, Perú<br />
+            Tel: (01) 244 8888 | Email: informes@facultadsociales.edu.pe</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="mb-0">&copy; 2025 Facultad de Ciencias Sociales. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
